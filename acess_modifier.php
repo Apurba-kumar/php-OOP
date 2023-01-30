@@ -87,16 +87,16 @@ class derived extends base{
     }
 }
 
-// $obj = new base("Apurba Kumar");
+$obj = new base("Apurba Kumar");
 
-// $obj->display();
+$obj->display();
 
 // $obj1 = new derived("Mr. Apurba Kumar \n");//cannot access private property by derived class
 // $obj1->display();
 // $obj1->name = "Apurba Kumar Mondol";//cannot access private property outside of a class
 // $obj1->display();
 
-$obj1 = new derived("Apurba");//we cannot access private property from derived class
-$obj1->name = "Mr Apurba Kumar";//but we can change value through derived class
-$obj1->display();
+// $obj1 = new derived("Apurba");//we cannot access private property from derived class
+// $obj1->name = "Mr Apurba Kumar";//but we can change value through derived class
+// $obj1->display();
 ?>
